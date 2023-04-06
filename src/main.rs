@@ -1,4 +1,4 @@
-use std::process::{Command, Stdio};
+use std::process::{Command};
 
 fn get_wifi_password(ssid: &str) -> Option<String> {
   let output = Command::new("security")
